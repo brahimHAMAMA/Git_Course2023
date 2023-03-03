@@ -1,0 +1,30 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background-color: #fff; }
+
+.page {
+  min-height: 100vh; }
+  .page .content-area {
+    width: calc(100% - 250px);
+    min-height: 100%;
+    -webkit-transition: .3s;
+    transition: .3s;
+    will-change: width;
+    float: right; }
+
+.page .sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #eee;
+  padding: 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-right: 10px; }
+
+/*# sourceMappingURL=main.css.map */
