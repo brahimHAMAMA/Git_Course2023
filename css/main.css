@@ -3,7 +3,10 @@
           box-sizing: border-box; }
 
 body {
-  background-color: #fff; }
+  background-color: #fff; 
+  color: black; 
+  font-size: 16px;
+}
 
 .page {
   min-height: 100vh; }
